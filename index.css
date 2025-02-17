@@ -6,16 +6,32 @@ body{
     color: white;
 }
 
+nav{
+    position: relative;
+    margin-right: 30px;
+    top: -104px;
+    padding: 10px 20px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 10px;
+}
+
 h1{
+    position: relative;
+    margin-left: 80px;
     font-size: 40px;
 }
 h2{
     font-size: 35px;
     color: aqua;
-}
-
-li{
-    list-style: none;
 }
 a{
     font-size: 20px;
@@ -28,7 +44,11 @@ a:hover{
 }
 
 .container{
-    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 0 auto;
 }
 .container1{
  
