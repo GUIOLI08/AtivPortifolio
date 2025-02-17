@@ -8,20 +8,9 @@ body{
 
 nav{
     position: relative;
-    margin-right: 30px;
-    top: -104px;
+    margin-right: 40px;
+    bottom: 108px;
     padding: 10px 20px;
-}
-
-.nav-list {
-    display: flex;
-    justify-content: flex-end;
-    gap: 20px;
-}
-
-.nav-list li{
-    list-style: none;
-    padding: 10px;
 }
 
 h1{
@@ -30,6 +19,8 @@ h1{
     font-size: 40px;
 }
 h2{
+    position: relative;
+    margin-left: 80px;
     font-size: 35px;
     color: aqua;
 }
@@ -43,15 +34,22 @@ a:hover{
     text-decoration: underline 2.5px;
 }
 
-.container{
+p{
+    font-size: 20px;
+    position: relative;
+    margin-left: 80px;
+    text-align:justify;
+}
+
+.nav-list {
     display: flex;
     justify-content: flex-end;
-    align-items: flex-start;
-    padding: 20px;
-    margin: 0 auto;
+    gap: 20px;
 }
-.container1{
- 
+
+.nav-list li{
+    list-style: none;
+    padding: 10px;
 }
 
 .button1{
@@ -65,9 +63,12 @@ a:hover{
     font-size: 20px;
     border: 0px;
     border-radius: 7px;
+    margin-top: 50px;
+    margin-left: 80px;
 }
 
 .button2{
+    position: relative;
     width: 200px;
     height: 70px;
     padding: 10px;
@@ -78,4 +79,5 @@ a:hover{
     font-weight: bold;
     font-size: 20px;
     border-radius: 7px;
+    margin-left: 50px;
 }
